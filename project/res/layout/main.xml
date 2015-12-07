@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/img2">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:text="选择题" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="90dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="16dp"
+        android:text="试卷题" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="26dp"
+        android:text="计时题" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="关于" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button5"
+        android:text="资料" />
+    
+    <com.test.a.FlowerView
+        android:id="@+id/flowerview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.test.a.FlowerView>
+    
+ 
+</RelativeLayout>
