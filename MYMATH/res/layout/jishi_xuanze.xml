@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="剩余时间"
+        android:textSize="40dp"
+        android:textColor="#111111" />
+
+    <RadioGroup
+        android:id="@+id/cengfa_RG"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:checkedButton="@+id/b1"
+        android:orientation="vertical" 
+        
+        >
+
+        <RadioButton
+            android:id="@+id/cengfa_radiobutton1"
+            android:text="11"
+            />
+
+        <RadioButton
+            android:id="@+id/cengfa_radiobutton2"
+            android:text="12" 
+            />
+
+        <RadioButton
+            android:id="@+id/cengfa_radiobutton3"
+            android:text="10"
+             />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/cengfa_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cengfa_RG"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="45dp"
+        android:text="6*4="
+        android:textSize="24dip" 
+       />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/queding" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/xiayiti" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/tijiao" />
+
+</RelativeLayout>

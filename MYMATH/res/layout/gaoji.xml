@@ -1,0 +1,51 @@
+<LinearLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+       
+     <TextView
+        android:id="@+id/cengfa_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6+4-2=" 
+        android:textSize="24dip" 
+        />
+
+    <RadioGroup
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:checkedButton="@+id/b1"
+    android:id="@+id/cengfa_RG">
+<!--默认选中b1-->
+    <RadioButton 
+     android:id="@+id/cengfa_radiobutton1"  
+     android:text="11"    
+    />
+     <RadioButton 
+     android:id="@+id/cengfa_radiobutton2"  
+     android:text="12"    
+    />
+     <RadioButton 
+     android:id="@+id/cengfa_radiobutton3"  
+     android:text="10"
+    />
+</RadioGroup>
+
+        <Button
+        android:id="@+id/cengfa_show"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="确定" >
+     </Button>
+      <Button
+        android:id="@+id/cengfa_show1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="下一题" >
+     </Button>
+
+        
+</LinearLayout>

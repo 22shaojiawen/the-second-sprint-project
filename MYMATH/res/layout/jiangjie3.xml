@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="除法是四则运算之一。已知两个因数的积与其中一个因数，求另一个因数的运算，叫做除法。" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="112dp"
+        android:text="除法口诀表：
+1÷1=1  2÷2=1  3÷3=1  4÷4=1  5÷5=1  6÷6=1  7÷7=1  8÷8=1  9÷9=1
+2÷1=2  4÷2=2  6÷3=2  8÷4=2  10÷5=2  12÷6=2  14÷7=2  16÷8=2  18÷9=2
+3÷1=3  6÷2=3  9÷3=3  12÷4=3  15÷5=3  18÷6=3  21÷7=3  24÷8=3  27÷9=3
+4÷1=4  8÷2=4  12÷3=4  16÷4=4  20÷5=4  24÷6=4  28÷7=4  32÷8=4  36÷9=4
+5÷1=5  10÷2=5  15÷3=5  20÷4=5  25÷5=5  30÷6=5  35÷7=5  40÷8=5  45÷9=5" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="14dp"
+        android:text="除法的简便运算是根据乘法而来的，所以乘法的掌握对除法的简便运算很重要。另外，除法的口诀也有利于除法的简便运算
+例题:
+180÷5÷4=180÷(4x5)=180÷20=9
+750÷2÷5=750÷(2x5)=750÷10=75
+        " />
+
+
+</RelativeLayout>
